@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Unica+One&display=swap');
+html {
+    scroll-behavior: auto;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.img-wrapper {
+    background: blue;
+}
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    transition: background-color ease-in-out 2s;
+}
+header .logo img {
+    height: auto;
+    width: 100%;
+    display: block;
+    max-width: 160px;
+}
+header nav {
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-right: 20px;
+}
+header nav a {
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 200ms ease-in-out;
+}
+section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+}
+#intro {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#intro h1 {
+    font-family: 'Unica One', cursive;
+    font-size: 4em;
+    margin: 0;
+    text-align: center;
+}
+#intro p {
+    font-size: 20px;
+}
+#team {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#team img {
+    max-width: 100%;
+    transition: all 200ms ease-in-out;
+}
+#team h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    font-weight: normal;
+    letter-spacing: 10px;
+    text-align: center;
+    opacity: 0.3;
+}
+#team .photographer {
+    width: 300px;
+    min-height: 60vh;
+}
+#team figure {
+    margin: 0;
+}
+#team h3 {
+    text-align: center;
+}
+#team a {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1em;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 200ms ease-in-out;
+}
+#portraits .img-wrapper {
+    width: 50vw;
+}
+#portraits .wrapper {
+    width: 50vw;
+    padding: 100px;
+}
+#outdoor .img-wrapper {
+    width: 50vw;
+}
+#outdoor .wrapper {
+    width: 50vw;
+    padding: 100px;
+}
+#contact .img-wrapper {
+    width: 50vw;
+}
+#contact .wrapper {
+    width: 50vw;
+    padding: 100px;
+}
+#contact .field {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    resize: none;
+    transition: all 200ms ease-in-out;
+}
+.button {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    margin: 20px auto 0;
+    padding: 10px;
+    text-decoration:  none;
+    text-transform: uppercase;
+    transition: all 200ms ease-in-out;
+}
+#contact label {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+}
