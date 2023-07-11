@@ -24,7 +24,7 @@ header a:hover {
 }
 
 #intro {
-  background-image: url(../asset/img/urban.jpg);
+  background-image: url(./img/urban.jpg);
   color: white;
   background-size: cover;
   background-repeat: no-repeat;
@@ -99,7 +99,7 @@ header a:hover {
 }
 
 #portraits .img-wrapper {
-  background-image: url(../asset/img/portrait.jpg);
+  background-image: url(./img/portrait.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
@@ -108,7 +108,7 @@ header a:hover {
 }
 
 #outdoor .img-wrapper {
-  background-image: url(../asset/img/outdoor.jpg);
+  background-image: url(./img/outdoor.jpg);
   transform-origin: right, center;
   background-color: white;
   background-attachment: fixed;
@@ -139,7 +139,7 @@ header a:hover {
 }
 
 #contact .img-wrapper {
-  background-image: url(../asset/img/contact.jpg);
+  background-image: url(./img/contact.jpg);
   background-attachment: fixed;
 }
 
