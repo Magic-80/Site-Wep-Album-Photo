@@ -33,4 +33,3 @@ Voici un aperçu du site :
 
 - **HTML** : Structure de base du site.
 - **CSS** : Mise en forme et effets visuels (les fichiers CSS sont référencés dans le code HTML mais non inclus ici).
-- **Responsive** : Conçu pour être visualisé sur différents appareils grâce à des styles adaptatifs.
