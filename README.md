@@ -6,7 +6,7 @@ Bienvenue dans le projet **Collectif Rainbow Photo** ! Ce site web présente le 
 
 Voici un aperçu du site :
 
-![Aperçu du site](asset/img/apercueHeader.png)
+![Aperçu du site](asset/img/apercuHeader.png)
 
 ## 🌟 Présentation
 
