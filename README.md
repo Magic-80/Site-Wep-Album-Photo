@@ -8,7 +8,7 @@ Voici un aperçu du site :
 
 ![Aperçu du header](asset/img/apercuHeader.png)
 ![Aperçu de la première section](asset/img/apercuSection1.png)
-
+![Aperçu de la deuxième section](asset/img/apercuSection2.png)
 ## 🌟 Présentation
 
 **Collectif Rainbow Photo** est un site vitrine pour un collectif de trois photographes. Le site met en avant leurs spécialités, avec un accent particulier sur la photographie en noir et blanc pour sa capacité à capturer les émotions et les détails d'une manière unique.
